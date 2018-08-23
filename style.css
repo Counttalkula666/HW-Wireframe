@@ -7,6 +7,8 @@
      * font-size: '18px'*/
 
      body {
+      width: 1000px;
+      margin: auto;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       color: '#777';
       background: '#777';
@@ -22,6 +24,10 @@
      section,
      aside,
      footer {
+       display: block;
+       padding: 10px;
+       margin: 10px;
+       text-align: center;
        background: #ebebeb;
     }
 
@@ -29,12 +35,21 @@
    /* Article
      * color: '#ebebeb',
      * background: '#777'*/
-
+     
+    section{
+      float: left;
+      display: block;
+      width: 500px;
+      height:300px;
+    }
      article{
        color: #ebebeb;
        background: #777;
      }
-
+     aside{
+       float:right;
+       display: block;
+     }
    /* h1 and p
      * color: '#777',
      * background: '#ebebeb'*/
